@@ -1,0 +1,5 @@
+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
+podman pull rhel
+podman run ubi8/ubi:8.3 echo Hello world
+podman run --name mysql-custom -e MYSQL_USER=redhat -e MYSQL_PASSWORD=r3dh4t -e MSQL_ROOT_PASSWORD=r3dh4t -d registry.redhat.io/rhel8/mysql-80
+podman login registry.redhat.io
